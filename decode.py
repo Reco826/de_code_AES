@@ -60,7 +60,7 @@ ip=requests.get('https://httpbin.org/ip').json()['origin']
 #print(ip)
 if ip == '196.134.158.192':
 	decode()
-elif ip == '196.134.178.37':
+elif ip == '196.155.70.203':
 	decode()
 else:
 	print('تم حظر الــip')
