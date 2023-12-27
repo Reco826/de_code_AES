@@ -23,7 +23,7 @@ def decode():
 	headers = {
 	    'Host': 'eslamhacker0.infinityfreeapp.com',
 	    'Connection': 'keep-alive',
-	    # 'Content-Length': '66',
+	    'Content-Length': '66',
 	    'Cache-Control': 'max-age=0',
 	    'Upgrade-Insecure-Requests': '1',
 	    'Origin': 'http://eslamhacker0.infinityfreeapp.com',
@@ -33,8 +33,8 @@ def decode():
 	    'Sec-GPC': '1',
 	    'Accept-Language': 'ar-EG,ar;q=0.7',
 	    'Referer': 'http://eslamhacker0.infinityfreeapp.com/Decrypted.php',
-	    # 'Accept-Encoding': 'gzip, deflate',
-	    # 'Cookie': '__test=e04780b11a44e1b9db6f0820c0ee4e77',
+	    'Accept-Encoding': 'gzip, deflate',
+	    'Cookie': '__test=e04780b11a44e1b9db6f0820c0ee4e77',
 	}
 	
 	data = {
